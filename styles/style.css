@@ -6,32 +6,28 @@ body{
     background-color: #F3F1FF;
     margin: 0;
 }
+
 /* ------------------------
     navigation-styles
 --------------------- */
+
 .nav-bar{
     width: 100%;
     height: 94px;
     background-color: #562EFF;
     display: flex;
     justify-content: space-between;
-    /* padding-left: 300px; */
-    /* padding-right: 300px; */
 }
 .nav-1{
     display: flex;
     align-items: center;
-    padding-left: 324px;
+    padding-left: 305px;
 }
 .nav-1 img{
     width: 40px;
     height: 51px;
     color: #FFFFFF;
 }
- /* .nav-1{
-    display: flex;
-    align-items: center; */
-
 .nav-1 a{
     text-decoration: none;
     font-size: 24px;
@@ -54,15 +50,6 @@ body{
     color: #FFFFFF;
     padding-right: 32px;
 }
-/* 
-
-
-.nav-img1{
-    padding-right: 15px;
-}
-.nav-img2{
-    padding-left: 20px;
-} */
 
 main{
     display: flex;
@@ -83,9 +70,11 @@ hr{
 .top-players{
     margin-bottom: 21px;
 }
+
 /* -----------------------
  top players style 
  --------------------- */
+
 .section-title{
     color: #562EFF;
     font-size: 24px;
@@ -93,7 +82,6 @@ hr{
 }
 .players{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
 }
@@ -109,9 +97,11 @@ hr{
     margin-left: 16px;
     font-size: 18px;
 }
+
 /* --------------------------
      top blog styles 
  ----------------------- */
+
  .blogs{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
@@ -143,8 +133,8 @@ hr{
 /*-------------------------
  Courses Styles 
  ---------------------*/
+
  .courses{
-     /* display: flex; */
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 24px;
@@ -185,7 +175,6 @@ hr{
      background-color: #FEE5DF;
      border-radius: 14.6913px;
      padding: 3px 5px;
-
  }
 
  /* --------------------------
@@ -205,7 +194,9 @@ hr{
          flex-direction: column;
      }
 }
+
 /* tablet-devices */
+
   @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
@@ -220,7 +211,5 @@ hr{
           flex-direction: column;
           align-items: center; 
       }
-    
-      
       
 }
