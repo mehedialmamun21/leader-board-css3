@@ -12,7 +12,7 @@ body{
 --------------------- */
 
 .nav-bar{
-    width: 100%;
+    width: 1440px;
     height: 94px;
     background-color: #562EFF;
     display: flex;
@@ -38,7 +38,7 @@ body{
 .nav-2{
     display: flex;
     align-items: center;
-    padding-right: 300px;
+    padding-right: 230px;
 }
 .nav-2 img{
     width: 51px;
@@ -187,6 +187,19 @@ hr{
      .container{
          width: 100%;
      }
+     .nav-bar{
+         flex-direction: column;
+         width: 380px;
+         height: 105px;
+         padding-left: 10px;
+     }
+     .nav-1{
+         padding-left: 0;
+        }
+     .nav-2{
+        padding-right: 23px;
+     }
+    
      .players, .blogs, .courses{
          grid-template-columns: repeat(1, 1fr);
      }
@@ -201,6 +214,12 @@ hr{
     .container{
         width: 100%;
     }
+    .nav-bar{
+        width: 800px;
+        height: 105px;
+        padding-left: 10px;
+        justify-content: center;
+    }
       .players, .courses{
         grid-template-columns: repeat(2, 1fr);
       }
@@ -211,5 +230,5 @@ hr{
           flex-direction: column;
           align-items: center; 
       }
-      
+
 }
